@@ -279,8 +279,6 @@ section  h5 {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 cột ngang */
   gap: 60px 80px; /* khoảng cách giữa hàng và cột */
-  background-color: #4E5F3F;
-  color: #EDE8DC;
   padding: 80px 100px;
   align-items: start;
 }
@@ -326,13 +324,24 @@ section  h5 {
   }
 }
 
-
 .bottom-content{
   max-width: 30%;
   align-items: center;
   text-align: left;
   margin: 50px auto;
 }
+
+.projects-container {
+  padding-top: 80px;
+}
+
+.projects__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* tùy chọn nếu bạn muốn ảnh căng đều */
+}
+
 
 
 
