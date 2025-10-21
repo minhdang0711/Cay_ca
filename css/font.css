@@ -1,0 +1,21 @@
+/* -----------------------------
+   FONT IMPORT
+------------------------------ */
+@font-face {
+    font-family: 'iCiel Lousiane';
+    src: url('../fonts/iCielLOUSIANE.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'Staravenue';
+    src: url('../fonts/staravenue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
